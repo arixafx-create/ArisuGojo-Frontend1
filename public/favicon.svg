@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <radialGradient id="p" cx="0.35" cy="0.35" r="0.7">
+      <stop offset="0%" stop-color="#ffd1e3"/>
+      <stop offset="60%" stop-color="#ff8fbf"/>
+      <stop offset="100%" stop-color="#ff3d8a"/>
+    </radialGradient>
+  </defs>
+  <g transform="translate(32 32)">
+    <g fill="url(#p)">
+      <path d="M0 -22 Q6 -10 0 0 Q-6 -10 0 -22Z" transform="rotate(0)"/>
+      <path d="M0 -22 Q6 -10 0 0 Q-6 -10 0 -22Z" transform="rotate(72)"/>
+      <path d="M0 -22 Q6 -10 0 0 Q-6 -10 0 -22Z" transform="rotate(144)"/>
+      <path d="M0 -22 Q6 -10 0 0 Q-6 -10 0 -22Z" transform="rotate(216)"/>
+      <path d="M0 -22 Q6 -10 0 0 Q-6 -10 0 -22Z" transform="rotate(288)"/>
+    </g>
+    <circle r="4" fill="#fff5f9"/>
+  </g>
+</svg>
