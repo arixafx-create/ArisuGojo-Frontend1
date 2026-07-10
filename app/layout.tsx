@@ -47,7 +47,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "ArisuGojo",
     description: "Anime edits, JJK, Solo Leveling and latest YouTube Shorts.",
-    images: ["https://YOUR-LOGO-LINK.png"],
+    images: ["https://iili.io/C0knwJ4.md.jpg"],
   },
 };
 
