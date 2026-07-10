@@ -23,9 +23,9 @@ export const metadata: Metadata = {
   description: "Anime edits, JJK, Solo Leveling and latest YouTube Shorts.",
 
   icons: {
-    icon: "https://iili.io/C0knwJ4.md.jpg",
-    shortcut: "https://iili.io/C0knwJ4.md.jpg",
-    apple: "https://iili.io/C0knwJ4.md.jpg",
+    icon: "https://iili.io/C0kQDtS.md.png",
+    shortcut: "https://iili.io/C0kQDtS.md.png",
+    apple: "https://iili.io/C0kQDtS.md.png",
   },
 
   openGraph: {
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     siteName: "ArisuGojo",
     images: [
       {
-        url: "https://iili.io/C0knwJ4.md.jpg",
+        url: "https://iili.io/C0kQDtS.md.png",
         width: 1200,
         height: 1200,
       },
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "ArisuGojo",
     description: "Anime edits, JJK, Solo Leveling and latest YouTube Shorts.",
-    images: ["https://iili.io/C0knwJ4.md.jpg"],
+    images: ["https://iili.io/C0kQDtS.md.png"],
   },
 };
 
