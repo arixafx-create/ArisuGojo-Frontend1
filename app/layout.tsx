@@ -5,7 +5,6 @@ import Header from "@/components/site/Header";
 import Footer from "@/components/site/Footer";
 import Providers from "@/components/site/Providers";
 import SakuraLayer from "@/components/site/SakuraLayer";
-import { SITE_URL } from "@/lib/api";
 
 const quicksand = Quicksand({
   subsets: ["latin"],
@@ -18,10 +17,16 @@ const playfair = Playfair_Display({
   variable: "--font-display",
   display: "swap",
 });
-import type { Metadata } from "next";
+
 export const metadata: Metadata = {
   title: "ArisuGojo",
   description: "Anime edits, JJK, Solo Leveling and latest YouTube Shorts.",
+
+  icons: {
+    icon: "https://iili.io/C0knwJ4.md.jpg",
+    shortcut: "https://iili.io/C0knwJ4.md.jpg",
+    apple: "https://iili.io/C0knwJ4.md.jpg",
+  },
 
   openGraph: {
     title: "ArisuGojo",
@@ -30,9 +35,9 @@ export const metadata: Metadata = {
     siteName: "ArisuGojo",
     images: [
       {
-        url: "/og-image.png",
+        url: "https://iili.io/C0knwJ4.md.jpg",
         width: 1200,
-        height: 630,
+        height: 1200,
       },
     ],
     type: "website",
@@ -42,12 +47,10 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "ArisuGojo",
     description: "Anime edits, JJK, Solo Leveling and latest YouTube Shorts.",
-    images: ["/og-image.png"],
+    images: ["https://YOUR-LOGO-LINK.png"],
   },
 };
 
-// Footer fetches social links from the API — render dynamically so that
-// unavailable backends during build don't block static generation.
 export const runtime = "edge";
 export const dynamic = "force-dynamic";
 
