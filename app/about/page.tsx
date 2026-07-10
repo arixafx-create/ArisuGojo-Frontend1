@@ -25,7 +25,7 @@ export default async function AboutPage() {
             {about?.avatar_url ? (
               // eslint-disable-next-line @next/next/no-img-element
               <img
-                src={about.avatar_url}
+                src={"https://iili.io/C0kQDtS.md.png"}
                 alt="ArisuGojo"
                 className="h-full w-full object-cover"
               />
