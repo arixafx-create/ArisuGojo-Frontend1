@@ -18,40 +18,31 @@ const playfair = Playfair_Display({
   variable: "--font-display",
   display: "swap",
 });
-
+import type { Metadata } from "next";
 export const metadata: Metadata = {
-  metadataBase: new URL(SITE_URL),
-  title: {
-    default: "ArisuGojo — Anime Shorts & Sakura Vibes",
-    template: "%s · ArisuGojo",
-  },
-  description:
-    "Cute anime shorts, sakura-scented edits, and cozy stories by ArisuGojo. Watch the latest YouTube Shorts, browse the gallery, and say hi.",
-  keywords: [
-    "ArisuGojo",
-    "anime shorts",
-    "anime creator",
-    "sakura",
-    "YouTube shorts",
-    "anime edits",
-  ],
-  authors: [{ name: "ArisuGojo" }],
+  title: "ArisuGojo",
+  description: "Anime edits, JJK, Solo Leveling and latest YouTube Shorts.",
+
   openGraph: {
-    type: "website",
-    url: SITE_URL,
-    title: "ArisuGojo — Anime Shorts & Sakura Vibes",
-    description:
-      "Cute anime shorts, sakura-scented edits, and cozy stories by ArisuGojo.",
+    title: "ArisuGojo",
+    description: "Anime edits, JJK, Solo Leveling and latest YouTube Shorts.",
+    url: "https://arisugojo.online",
     siteName: "ArisuGojo",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
   },
+
   twitter: {
     card: "summary_large_image",
-    title: "ArisuGojo — Anime Shorts & Sakura Vibes",
-    description:
-      "Cute anime shorts, sakura-scented edits, and cozy stories by ArisuGojo.",
-  },
-  icons: {
-    icon: "/favicon.svg",
+    title: "ArisuGojo",
+    description: "Anime edits, JJK, Solo Leveling and latest YouTube Shorts.",
+    images: ["/og-image.png"],
   },
 };
 
